@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujian Akhir Semester</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        scroll-behavior: smooth;
+        background-color: white;
+      }
+
+      .hero {
+        background-image: url("https://cdn1-production-images-kly.akamaized.net/5K-Z5e82zdIs37sROIxWuNB7Ixk=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2999800/original/082139600_1576658432-_E6A3215.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: darken;
+        padding: 100px 10px;
+        text-align: center;
+        color: white;
+      }
+
+      .btn-scroll {
+        margin-top: 15px;
+      }
+
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2rem;
+        }
+        .hero p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="badge text-dark fs-6"><b>Bambang Pamungkas</b></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link" href="kuliner.html">Kuliner</a></li>
+            <li class="nav-item"><a class="nav-link" href="form.html">Form</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="display-4 fw-bold mb-3" data-aos="fade-up" data-aos-delay="300">Bambang Pamungkas</h1>
+        <p data-aos="fade-up" data-aos-delay="400">
+          Every journey brings a new flavor<br />
+          discover the dishes that shaped my story.
+        </p>
+        <a href="#kuliner" class="btn btn-outline-light btn-scroll" data-aos="fade-up" data-aos-delay="700">View Dishes</a>
+      </div>
+    </div>
+
+    <!-- Kuliner Section -->
+   <div id="kuliner" class="kuliner-section text-dark" data-aos="fade-up" data-aos-duration="1500">
+      <div class="container mt-5">
+        <h4 class="mb-3 text-dark text-center">Pojok Kuliner</h4>
+          Sebagai pemain sepak bola tentunya saya sering melakukan perjalanan ke berbagai daerah baik di dalam maupun di luar negeri, tujuan utama saya tentunya untuk memperkuat tim saya dalam melakukan pertandingan, baik kompetisi resmi
+          atau hanya sekedar melakukan ujicoba.
+        </p>
+        <p>
+          Dan sebagai peminat makanan, sudah pasti disetiap kesempatan saya melakukan traveling, saya selalu menyempatkan diri untuk berburu makanan-makanan yang istimewa, mulai dari yang di pinggiran jalan, gerobak-gerobak, bistro, sampai
+          ke mall-mall. Maka dari itu dalam bagian “Pojok Kuliner” ini saya ingin berbagi pengetahuan tentang tempat-tempat makan yang menurut saya istimewa, dan mungkin juga bisa menjadi rekomendasi buat Anda semua..
+        </p>
+      </div>
+    </section>
+
+    <!-- Makanan dari Salatiga -->
+    <div class="container my-5" data-aos="fade-up" data-aos-delay="200">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="https://awsimages.detik.net.id/community/media/visual/2021/06/04/mbak-tum-gudeg-koyor-dan-lontong-opor-enak-di-semarang-sejak-1991-4.jpeg?w=1200" alt="Gudeg Koyor Mbak Tun" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-md-8 text-dark mt-4">
+          <h5>Gudeg Koyor Mbak Tun – Salatiga</h5>
+          <p>Located right in front of SMAN 1 Salatiga, this dish stands out with its tender and spicy beef tendon (koyor). A daily favorite during my school days—simple, authentic, and deeply flavorful.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Makanan dari Jakarta -->
+    <div class="container my-5" data-aos="fade-up" data-aos-delay="400">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="https://images.panomnom.com/upload/v1694763776/ST%20RECIPES/VEGETABLES/Ketoprak/Ketoprak_n88j01.jpg?dpr=2.625&bv=2&webp=true" alt="Ketoprak Wahid Jakarta" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-md-8 text-dark mt-4">
+          <h5>Ketoprak Wahid – Jakarta</h5>
+          <p>Found near Hotel Sahid Jaya, this legendary ketoprak is known for its tangy lime-infused peanut sauce. Though it's street food, the bold flavors make it truly unforgettable.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Makanan dari Kuala Lumpur -->
+    <div class="container my-5" data-aos="fade-up" data-aos-delay="600">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/1e/a5/06/piece.jpg?w=900&h=500&s=1" alt="Fatty Crab Kuala Lumpur" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-md-8 text-dark mt-4">
+          <h5>Fatty Crab – Kuala Lumpur</h5>
+          <p>Famous for its spicy chili crab, served with toasted bread and crispy fried chicken wings. Located in front of Kelana Jaya Futsal Complex, this spot is a must-visit for seafood lovers.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500, // slow effect
+        easing: "ease-in-out",
+        once: true,
+        offset: 100,
+      });
+    </script>
+  </body>
+</html>
